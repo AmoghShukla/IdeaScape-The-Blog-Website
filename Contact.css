@@ -1,0 +1,114 @@
+.navbar{
+	display: flex;
+	align-items: centre;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+
+.nav-list{
+	width: 50%;
+	display: flex;
+	justify-content: centre;
+	
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 20px;
+	
+}
+
+.nav-list li a:hover{
+	color: #001233;
+	
+}
+
+#search{
+	padding: 2px 5px;
+	font-size: 17;
+	border: 2px solid white;
+	border-radius: 100px;
+}
+
+.rightNav {
+	width: 50%;
+	text-align: right;
+	padding: 12px 23px;
+}
+
+.foreground {
+	background: rgba(0, 0, 0, 0.7) url("img/contact.jpg");
+	background-size: cover;
+}
+
+.contact{
+	background: rgba(0, 0, 0, 0.7) url("img/contact.jpg");
+	background-size: cover;
+	background-blend-mode: lighten;
+	padding: 100px;
+	height: 700px;
+
+}
+
+.message{
+    color: #ffffff;
+}
+
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+.form{
+	max-width: 500px;
+	margin: 0px auto;
+}
+
+.form-input{
+    margin: 15px 0;
+    padding: 7px 5px;
+    width: 100%;
+    font-size: 18px;
+    border: 2px #001233;
+    border-radius: 6px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IdeaScape - The Blog Website</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <nav class="navbar foreground">
+        <ul class="nav-list">
+          <div class="logo" ><a href="website.html" ><img src="img/Chotalogo.png" alt="Logo"></a></div>
+          <li><a href="website.html">Home</a></li>
+          <li><a href="Blogs.html">Blogs</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="rightNav">
+            <input placeholder="Blog" type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+      </nav>
+    <section id="contact" class="contact">
+        <h1  class="text-center"><b>Contact Us</b></h1>
+            <div class="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+                <input class="form-input" type="text" name="Phone" id="Phone" placeholder="Enter Your Mobile No.">
+                <input class="form-input" type="text" name="E-mail" id="E-mail" placeholder="Enter Your E-mail">
+                <text class="form-input" type="text" name="E-mail" id="E-mail" placeholder="Enter Your E-mail">
+                    <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate Your Concern!"></textarea>
+                <button class="btn" onclick="sendmail(); reset(); return false;">Submit</button>
+            </div>
+    </section>
+
+    <script src="Contact.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("LjyARn9Uud-vQoDlO");
+   })();
+</script>
+
+</body>
+</html>

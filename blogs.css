@@ -1,0 +1,71 @@
+.navbar{
+	display: flex;
+	align-items: centre;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+
+.nav-list{
+	width: 50%;
+	display: flex;
+	justify-content: centre;
+	
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 20px;
+	
+}
+
+.nav-list li a:hover{
+	color: #001233;
+	
+}
+
+#search{
+	padding: 2px 5px;
+	font-size: 17;
+	border: 2px solid white;
+	border-radius: 100px;
+}
+
+.rightNav {
+	width: 50%;
+	text-align: right;
+	padding: 12px 23px;
+}
+
+
+.straightground{
+    background: rgba(0, 0, 0, 0.7) url("img/Blogs.jpg");
+	background-size: cover;
+}
+
+.secondHalf{
+    padding: 50px;
+    height: 675px;;
+    background: rgba(239, 237, 237, 0.7) url("img/Blogs.jpg");
+	background-size: cover;
+    width: 95%;
+    border: 4px solid white;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.secondHalf h1{
+    color: #ffffff;
+}
+
+.secondHalf h3{
+    color: #ffffff;
+}

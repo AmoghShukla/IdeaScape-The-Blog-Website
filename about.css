@@ -1,0 +1,83 @@
+.navbar{
+	display: flex;
+	align-items: centre;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+
+.nav-list{
+	width: 50%;
+	display: flex;
+	justify-content: centre;
+	
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 20px;
+	
+}
+
+.nav-list li a:hover{
+	color: #001233;
+	
+}
+
+#search{
+	padding: 2px 5px;
+	font-size: 17;
+	border: 2px solid white;
+	border-radius: 100px;
+}
+
+.rightNav {
+	width: 50%;
+	text-align: right;
+	padding: 12px 23px;
+}
+
+
+.moreground {
+	background: rgba(0, 0, 0, 0.7) url("img/about1.jpg");
+	background-size: cover;
+}
+
+.about{
+	background: rgba(0, 0, 0, 0.7) url("img/about1.jpg");
+	background-size: cover;
+	background-blend-mode: lighten;
+	padding: 100px;
+	height: 700px;
+    font-family: 'Sofia Sans', sans-serif;
+	text-align: center;
+	justify-content: center;
+}
+
+.text-here{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.sup{
+	font-display: flex;
+	flex-direction: column;
+	color: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+
+.stat{
+	font-size: 25px;
+	
+}
